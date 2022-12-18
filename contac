@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <!---enlaces de union al CSS---->
+    <link rel="stylesheet" href="stylecon.css">
+    <!---encabesado de la pagina---->
+    <title>UNIVERSAL-MUSIC.NET</title>
+
+</head>
+<body>
+    <!---enlace para poder ver el logo---->
+    <div class="head">
+
+        <div class="logo">
+            <img src="img1/logo.jpg" height="55" width="55">
+            <a href="img1/logo.jpg">UNIVERSAL MUSIC</a>
+        </div>
+    </div>
+    <form1 name="contact" netlify>
+    <section class="contacto" id="contacto">
+        <h2>Contactanos</h2>
+        <div class="contenido-contacto">
+            <div class="informacion-contacto">
+                <h3>Información de contacto</h3>
+                <p>brayanluisramirez@gmail.com</p>
+                <p>+51 912250373</p>
+            </div>
+            <form class="formulario-contacto">
+                <div class="input-contacto">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" placeholder="Pedro Perez">
+                </div>
+                <div class="input-contacto">
+                    <label for="correo">Correo</label>
+                    <input type="text" id="correo" placeholder="example@example.com">
+                </div>
+                <div class="input-contacto">
+                    <label for="telefono">Teléfono</label>
+                    <input type="text" id="telefono" placeholder="0808080808">
+                </div>
+                <div class="input-contacto">
+                    <label for="telefono">Mensaje</label>
+                    <textarea></textarea>
+                </div>
+                <div class="input-contacto">
+                    <input type="submit" value="Enviar" class="btn azul">
+                </div>
+            </form>
+        </div>
+    </section>
+    
+    </form1>
+</body>  
